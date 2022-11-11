@@ -1,0 +1,34 @@
+.break-time-container {
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.work-time,
+.break-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  color: black;
+}
+
+.work-time {
+  /* 
+   * Add some background color and any other decorative means
+   * to make it visually different from break-time
+   */
+}
+
+.break-time {
+  /* 
+   * Add some background color and any other decorative means
+   * to make it visually different from work-time
+   */
+}
+
+.hidden {
+  display: none;
+}
